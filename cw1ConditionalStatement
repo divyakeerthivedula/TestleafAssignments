@@ -1,0 +1,27 @@
+function launchBrowse(){
+    if(browserName==="chrome"){
+        console.log("First test:Launch browser is chrome browser");
+    }
+    else
+    console.log("First test:Launch browser is Other browser");
+}
+let browserName='chrome'
+launchBrowse()
+
+
+function runTests(){
+    switch(testType){
+        case "smoke":
+            return "It is smoke testing"
+        case "sanity":
+            return "It is sanity testing"; 
+        case "regression":
+            return ( "It is regression testing" )
+            break
+        default:
+            return "no testing"
+    }
+}
+testType="regression"
+let test =runTests(testType)
+console.log(test)

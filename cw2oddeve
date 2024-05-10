@@ -1,0 +1,11 @@
+
+let num=3
+function isOddOrEven(){
+    if(num%2==0){
+        console.log(`Number ${num} given is an even number`)
+    }
+    else
+    console.log(`Number ${num} is odd number`)
+    
+}
+isOddOrEven()

@@ -1,0 +1,12 @@
+function numberType(){
+    let num=0
+    if(num>0){
+        console.log(`Given ${num} is a positive number`);
+    }
+    else if(num<0){
+        console.log(`Giveb ${num} is a negative number`)
+    }
+    else 
+    console.log(`Given ${num} is a zero`)
+}
+numberType()
