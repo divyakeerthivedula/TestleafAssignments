@@ -1,0 +1,11 @@
+var firstName="Divya"
+var companyName='RNTBCI'
+var mobileNumber=8220145941
+var isAutomation=true
+var hasPlaywright
+
+console.log("First name is "+  typeof firstName)
+console.log("Company name is "+  typeof companyName)
+console.log("Mobile number is "+  typeof mobileNumber)
+console.log("isAutomation "+  typeof isAutomation)
+console.log("hasPlaywright "+  typeof hasPlaywright)
